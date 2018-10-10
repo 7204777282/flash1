@@ -1,0 +1,8 @@
+Distance(X, Y) = Distance(root, X) +Distance(root, Y) – 2*(Distance(root to LCA(X,Y)
+where LCA(X,Y) = Lowest Common Ancestor of X,Y
+In the above example if Distance(7,1) = 4
+Distance(root, 7) = 2
+Distance(root, 1) = 2
+LCA(7, 1) = 5
+Distance(root, 5) = 0
+Distance(7,1) = 2+2 – 2*0 = 4
